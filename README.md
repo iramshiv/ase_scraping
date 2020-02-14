@@ -108,7 +108,15 @@ Dict is used as below code,
 
 **Output of Final data dtructure**
 ![alt-text](https://github.com/iramshiv/ase_scraping/blob/master/finalDS.jpg)
-    
-    
-    
-    
+
+2. side-effect free function
+
+The concepts behind functional programming requires functions to be stateless, and rely only on their given inputs to produce an output. The functions that meet the criteria are called pure functions. The benefit of using pure functions over impure (non-pure) functions is the reduction of side effects.
+
+In src/main/userfunctions/duration_check.py
+![alt-text](https://github.com/iramshiv/ase_scraping/blob/master/freefunction.jpg)
+
+Result:
+![alt-text](https://github.com/iramshiv/ase_scraping/blob/master/resultfreefunction.jpg)
+
+It is an exapmle of side-effect free function.
