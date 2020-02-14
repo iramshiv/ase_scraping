@@ -84,3 +84,31 @@ PyCharm shortcuts
 8. ```ctrl + f8``` - toogle line breakpoint
 9. ```ctrl + alt + shift + f8``` - toogle temporary line breakpoint
 10. ```ctrl + shift + f8``` - View Breakpoint
+
+### Functional Programming
+
+1. Final Data structure:
+
+In src/main/userfunctions/job_scraper.py
+
+Dict is used as below code,
+
+```jobs = {} ```
+```title_job = job_title.text```
+```jobs[title_job] = {}```
+    
+ ```company_job = company_name.text```
+ ```jobs[title_job]['company'] = company_job```
+    
+```posted_time_job = time_posted.get_text()```
+```jobs[title_job]['time_posted'] = posted_time_job```
+   
+```final_link = "https://www.stepstone.de" + job_link.attrs['href']```
+```jobs[title_job]['job_link'] = final_link```
+
+**Output of Final data dtructure**
+![alt-text](https://github.com/iramshiv/ase_scraping/blob/master/finalDS.jpg)
+    
+    
+    
+    
