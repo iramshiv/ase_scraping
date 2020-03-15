@@ -28,26 +28,39 @@ Run *scraper.py* for the initiating the scrapper.
 2. Pronounceable and Searchablr names.
 
 **Data Structures**
+
 3. Data Structure exposes data and have no behaviours.
 
 **Objects**
+
 4. Objects expose behaviour and exposes no data.
 
 **Functions**
+
 5. Function should be small and concentrate on only one job.
-6. Functions should have few arguments. (<3)
+
+6. Functions should have few arguments. (less than 3)
+
 7. Function should have no side effects.
+
 8. Fucntions should also have decriptive names.
 
 **Tests**
+
 9. Only one assert per test.
+
 10. Should be as clean as production code.
+
 11. should be easy to run.
 
 **Error Handling**
+
 12. Never mix erro handling and the code.
+
 13. use exceptions instead of returning error codes.
+
 14. first code "try catch finally" -> Structured code.
+
 15. Always throws exceptions with constants.
 
 ### Build Management
